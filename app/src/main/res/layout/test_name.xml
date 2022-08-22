@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <com.google.android.material.button.MaterialButton
+       android:id="@+id/btn1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="@dimen/default_margin"
+       android:textSize="18sp"/>
+
+   <TextView
+       android:id="@+id/text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="@dimen/default_margin"
+       android:textSize="22sp"
+       android:textStyle="bold|italic"
+       android:gravity="center"
+       android:text="This is my text"/>
+</LinearLayout>
